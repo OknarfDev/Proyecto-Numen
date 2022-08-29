@@ -1,0 +1,26 @@
+/* Estilo de los textos en navbar */
+
+#navbar-text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    font-style: normal;
+    margin-left: 53px;
+}
+
+#navbar-text:hover {
+    color: #A27B5C;
+}
+
+/* Estilos de los íconos en el navbar */
+
+ion-icon { 
+    color: #ffffff;
+    font-size: 30px;
+    margin: 40px;
+}
+
+ion-icon:hover {
+    color: #A27B5C;
+}

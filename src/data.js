@@ -1,0 +1,35 @@
+
+const data = {
+    tarjetas : [
+        {
+            id: '1',
+            imagen: './imagenes/02.jpg',
+            combo: 'Informal',
+            precio: '19.99',
+            precioanterior:'24.99',
+        },
+        {
+            id: '2',
+            imagen: './imagenes/03.jpg',
+            combo: 'Casual',
+            precio: '35.99',
+            precioanterior:'44.99',
+        },
+        {
+            id: '3',
+            imagen: './imagenes/04.jpg',
+            combo: 'Verano',
+            precio: '17.99',
+            precioanterior:'20.99',
+        },
+        {
+            id: '4',
+            imagen: './imagenes/05.jpg',
+            combo: 'Primavera',
+            precio: '24.99',
+            precioanterior:'29.99',
+        },
+    ]
+}
+
+export default data;
