@@ -9,6 +9,15 @@ function Tarjeta(props) {
     const { tarjeta, onAdd } = props;
     return (
         <Card className='contenedor-principal-de-tarjeta' >
+            {/* grid={{
+              gutter: 10,
+              xs: 1,
+              sm: 2,
+              md: 4,
+              lg: 4,
+              xl: 3,
+              xxl: 3,
+              }} */}
             <Card.Img className='imagen-de-tarjeta' src={tarjeta.imagen}
             alt={tarjeta.combo}/>
                 <Card.Body className='contenedor-de-tarjeta' >

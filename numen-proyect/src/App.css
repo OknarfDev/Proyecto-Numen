@@ -7,6 +7,7 @@
 html,
 body {
   font-size: 16px;
+  max-width: 100mv;
 }
 
 .App {
@@ -41,6 +42,15 @@ h3{
 
 .NuestrasOfertas {
 width: 74rem;
+width: 100%;
+/* flex-flow: column wrap; */
+/* display: grid; */
+/* display:flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* display: flex;
+flex-wrap: nowrap; */
+/* flex-direction: row; */
 }
 
 .nuestras {
@@ -63,11 +73,31 @@ span {
 .contenedor {
 
   display: grid;
+  /* display:flex;
+  justify-content: center;
+  align-items: center; */
+  /* flex-direction: row; */
+
   grid-template-columns: 3fr 1fr;
+  max-width: 500 px;
 
   /* gap: 20px; */
 }
 
 .tarjetas {
-  padding: 0 7rem;
+  padding: 0% 14%;
+  
 }
+
+
+/* h1,
+h2,
+h3{ text-align: justify; */
+  .basket{
+    
+    display:flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+
+  }
+
